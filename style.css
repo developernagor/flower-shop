@@ -185,3 +185,69 @@ body{
     padding-bottom: 30px;
 }
 /* Offer section styles end */
+
+
+/* Instragram section styles start */
+.instragram{
+    max-width: 1200px;
+    padding: 100px 0;
+    
+}
+.instragram-heading{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.instragram h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.instragram p{
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 35px;
+}
+
+.instragram-items{
+  
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+/* Instragram section styles end */
+
+
+
+/* News letter section starts */
+.news-letter{
+    max-width: 1350px;
+    margin: 0 auto;
+    /* height: 600px; */
+    padding: 180px 0;
+    /* border: 1px solid red;     */
+    text-align: center;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+
+}
+.news-letter-form
+
+.news-letter-form h1{
+    font-size: 45px;
+    padding-bottom: 25px;
+
+}
+.news-letter-form p{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.news-letter-form input{
+    width: 600px;
+    height: 60px;
+    font-size: 35px;
+    padding: 15px;
+    margin-right: 20px;
+}
+/* News letter section end */
