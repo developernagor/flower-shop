@@ -3,6 +3,8 @@
 
 body{
     font-family: "Inter", sans-serif;
+    max-width: 1350px;
+    margin: 0 auto;
 }
 
 *{
@@ -157,4 +159,29 @@ body{
 
 
 
-/*  */
+/* Offer section styles start */
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fef6f8;
+    padding: 50px;
+    text-align: center;
+}
+.offer-content{
+    width: 700px;
+}
+.offer h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.pink-off{
+    color: rgb(245, 0, 163);
+    font-weight: 800;
+}
+.offer p{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+/* Offer section styles end */
